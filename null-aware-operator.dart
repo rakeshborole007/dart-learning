@@ -14,7 +14,8 @@ void main() {
   print('s2.isNotEmpty:: ${s2?.contains('a') ?? false}');
   print('s3.isNotEmpty:: ${s3?.contains('a') ?? false}');
 
-  print('------------------------------------');
+  print(
+      'Dart is a true object-oriented language, so even functions are objects and have a type, Function.');
 
   Function nullableFunctionInstance1 = (var1) {
     return var1;
